@@ -9,7 +9,7 @@
 <fieldset style="border:2px solid #0AF;padding:0 50px 0 55px;">
 	<legend style="text-align:center;"><img src="img/home_obm.png" style="border:2px solid #0AF;"/></legend>
 	<h1>Si vous arrivez sur cette page c'est que vous n'avez pas encore modifiez le lien OBM:<br/> 
-	<a href="https://192.168.1.190">http<span style="color:green;font-weight:bold">s</span>://192.168.1.190</a>
+	<a href="">retour</a>
 	<br/>(cliquer dessus pour y acceder.)<br/>
 	</h1>
 </fieldset>
