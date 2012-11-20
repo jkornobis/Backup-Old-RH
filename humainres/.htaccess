@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/var/www/obm-2.3.7/php/humainres/.htpasswd"
+
