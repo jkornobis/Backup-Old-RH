@@ -3,19 +3,12 @@ session_start();
 if (isset ($_POST['mdp'])){
 $_SESSION['mdp'] = $_POST['mdp'];
 }
-if( $_SESSION['mdp']  == 'mla62'
- || $_SESSION['login'] == "KORNOBIS Jérémie" || $_SESSION['login'] == "FIERRARD Virginie"|| $_SESSION['login'] == "PECOURT Antoine" || $_SESSION['login'] == "BOUTON Michael"
- || $_SESSION['login'] == "VANWALESCAPPEL Vincent" 
- || $_SESSION['login'] == "HERMANT Laurence" 
- || $_SESSION['login'] == "KORNOBIS Jérémie"
- || $_SESSION['login'] == "WALBROU Bernard" || $_SESSION['login'] == "HERMANT Jean Marc" || $_SESSION['login'] == "admin admin"
-
-){
+if( $_SESSION['mdp']  == '' || $_SESSION['login'] == "" ){
 	
-	$PARAM_hote='localhost'; // le chemin vers le serveur
-	$PARAM_nom_bd='mla'; // le nom de votre base de données
-	$PARAM_utilisateur='mlaobmmysql'; // nom d'utilisateur pour se connecter
-	$PARAM_mot_passe='H864kE5XB2'; // mot de passe de l'utilisateur pour se connecter
+	$PARAM_hote=''; // le chemin vers le serveur
+	$PARAM_nom_bd=''; // le nom de votre base de données
+	$PARAM_utilisateur=''; // nom d'utilisateur pour se connecter
+	$PARAM_mot_passe=''; // mot de passe de l'utilisateur pour se connecter
 
 	$moisactuel = date("m");
 	$moisprochain = date("m") +1;
