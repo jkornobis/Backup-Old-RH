@@ -6,10 +6,10 @@ if(isset($_SESSION['uti'])){
 	$_SESSION['uti'] = $utilisateur = $_GET['uti'];
 } 
 
-$PARAM_hote='localhost'; // le chemin vers le serveur
-$PARAM_nom_bd='mla'; // le nom de votre base de données
-$PARAM_utilisateur='mlaobmmysql'; // nom d'utilisateur pour se connecter
-$PARAM_mot_passe='H864kE5XB2'; // mot de passe de l'utilisateur pour se connecter
+$PARAM_hote=''; // le chemin vers le serveur
+$PARAM_nom_bd=''; // le nom de votre base de données
+$PARAM_utilisateur=''; // nom d'utilisateur pour se connecter
+$PARAM_mot_passe=''; // mot de passe de l'utilisateur pour se connecter
 
 $moisactuel = date("m");
 $moisprochain = date("m") +1;
