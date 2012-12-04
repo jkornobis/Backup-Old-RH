@@ -422,9 +422,9 @@ for($mcomp = $moisdebut; $mcomp <= $moisfin  ; $mcomp++){
 	if($totalrtt[$mcomp] >= 7){ $totalrtt[$mcomp] = round(($totalrtt[$mcomp]/7),2);}
 
 	if($mcomp == $moisdebut){
-		$jourt[$mcomp] = $nbjours[$mcomp]-($weekend[$mcomp]+$totalcp[$mcomp]+$totalcet[$mcomp]+$totalcanc[$mcomp]+$totalcex[$mcomp]+$totalferie[$mcomp]+$totalcet[$mcomp]+$totalmal[$mcomp]+$totalcem[$mcomp]+$compteur_jourdebut);	
+		$jourt[$mcomp] = $nbjours[$mcomp]-($weekend[$mcomp]+$totalcp[$mcomp]+$totalcet[$mcomp]+$totalcanc[$mcomp]+$totalcex[$mcomp]+$totalferie[$mcomp]+$totalmal[$mcomp]+$totalcem[$mcomp]+$compteur_jourdebut);	
 	}else{
-		$jourt[$mcomp] = $nbjours[$mcomp]-($weekend[$mcomp]+$totalcp[$mcomp]+$totalcet[$mcomp]+$totalcanc[$mcomp]+$totalcex[$mcomp]+$totalferie[$mcomp]+$totalcet[$mcomp]+$totalmal[$mcomp]+$totalcem[$mcomp]);	
+		$jourt[$mcomp] = $nbjours[$mcomp]-($weekend[$mcomp]+$totalcp[$mcomp]+$totalcet[$mcomp]+$totalcanc[$mcomp]+$totalcex[$mcomp]+$totalferie[$mcomp]+$totalmal[$mcomp]+$totalcem[$mcomp]);	
 	}
 
 	$equivh[$mcomp] = $jourt[$mcomp]*$hpj;
